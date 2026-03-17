@@ -1,4 +1,4 @@
 {
-	"Version": "6.3.3",
-	"Announcement": "Aether-Yield: Performance-optimized command tool for Roblox"
+	"Version": "6.5",
+	"Announcement": "Aether-Yield: Updated to 6.5!"
 }
