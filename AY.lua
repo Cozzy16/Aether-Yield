@@ -12884,13 +12884,13 @@ end)
 
 task.spawn(function()
 	local success, latestVersionInfo = pcall(function() 
-		local versionJson = game:HttpGet("https://raw.githubusercontent.com/EdgeAY/Aetheryield/master/version.txt")
+		local versionJson = game:HttpGet("https://raw.githubusercontent.com/Cozzy16/Aether-Yield/master/version.txt")
 		return HttpService:JSONDecode(versionJson)
 	end)
 
 	if success then
 		if currentVersion ~= latestVersionInfo.Version then
-			notify("Outdated", "Get the new version at itzC9.github.io/AY")
+			notify("Outdated", "Get the new version at Cozzy16.github.io/AetherYield")
 		end
 
 		if latestVersionInfo.Announcement and latestVersionInfo.Announcement ~= "" then
