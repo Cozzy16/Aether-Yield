@@ -1,55 +1,63 @@
-### ALL DEVS:
-## Original
-# Creator: Edge
-# Developer: Moon
-# Developer: Zwolf
-# Developer: Toon
+# Aether-Yield (AY)
 
-## Remaker
-# Creator: itzC9
-# Developer: QuertzClient
-# Developer: Velonix Executor
-# Developer: Modular-X
+A rewrite, performance-optimized command-line administration script for Roblox.
 
+## Overview
 
-# Infinite Yield Remastered:
-The best command line script for roblox.
+Aether-Yield provides a comprehensive suite of commands for Roblox game and exploration. Built with modern Luau and optimized for minimal performance impact.
 
- - Currently 378 commands
- - Open Source
- - 2 months of development
+## Features
 
-## Developers
-### Creator: itzC9
-
-### Developer: QuertzClient
-### Developer: Velonix Executor
-### Developer: Modular-X
-
-# ##############
-
-# Infinite Yield:
-[![Discord]([https://media.discordapp.net/attachments/338403017894395905/668536741942263808/Discord-Logo-Color.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg4faHtKq52_BhPUDKoBiOJPYp8eUikJ-b7MvK6eSPgQ&s))](https://discord.gg/78ZuWSq)
-The best command line script for roblox.
-
-![https://github.com/itzC9/IYremastered/logo/iy.png](https://raw.githubusercontent.com/itzC9/IYremastered/refs/heads/main/logo/iy.png)
-
-Get it [here](https://github.com/EdgeIY/infiniteyield/wiki)
-
- - Currently 378 commands
- - Open Source
- - 6 years of development
-
-## Developers
-### Creator: Edge
-
-### Developer: Moon
-### Developer: Zwolf
-### Developer: Toon
-
+- **Performance Optimized**: Lazy-loaded UI components and cached services
+- **Lightweight**: Reduced memory footprint through efficient code architecture
+- **Cross-Platform**: Full support for PC and mobile devices
+- **Extensible**: Plugin system for custom commands
+- **Modern Codebase**: Utilizes contemporary Luau features and best practices
 
 ## Usage
-You can learn how to use all the features of this script in the wiki!
 
-## Contributing
-There is no specific rules on contributing (as of now) just open a pull request and if it checks out we will merge it!
+1. Execute the script in your preferred Roblox executor
+2. Press `;` (semicolon) to open the command bar
+3. Type commands to interact with the game
+
+### Common Commands
+
+| Command | Alias | Description |
+|---------|-------|-------------|
+| `goto [player]` | `to` | Teleport to a player |
+| `walkspeed [number]` | `ws`, `speed` | Set movement speed |
+| `jumppower [number]` | `jp` | Set jump power |
+| `fly` | - | Enable flight mode |
+| `noclip` | - | Walk through walls |
+| `rejoin` | `rj` | Rejoin current server |
+| `serverhop` | `sh` | Join a different server |
+| `esp` | - | Highlight all players |
+| `invisible` | `invis` | Make character invisible |
+| `reset` | `re` | Reset character |
+
+Type `cmds` or `commands` for a full list of available commands.
+
+## Mobile Support
+
+On mobile devices, a floating "AY" button appears in the top-center of the screen. Tap it to open the command interface.
+
+## Technical Details
+
+- **Architecture**: Modular design with deferred initialization
+- **Memory Management**: Automatic cleanup of unused resources
+- **Compatibility**: Works with major Roblox executors
+- **Asset Handling**: Automatic download and caching of required assets
+
+## Acknowledgments
+
+Aether-Yield is based on the Aether Yield project by Edge and contributors.
+
+Original development team:
+- Edge (Creator)
+- Moon (Developer)
+- Zwolf (Developer)
+- Toon (Developer)
+
+## License
+
+This project is open source. Contributions are welcome via pull requests.

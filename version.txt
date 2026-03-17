@@ -1,4 +1,4 @@
 {
 	"Version": "6.3.3",
-	"Announcement": "Remastered By itzC9 & Modular-X"
+	"Announcement": "Aether-Yield: Performance-optimized command tool for Roblox"
 }
